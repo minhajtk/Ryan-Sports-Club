@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: url(../images/basketball.jpg);
+    height:70vh ;
+    width: 100%;
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.events-container {
+    padding: 20px;
+}
+
+.event {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.event p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.gallery img {
+    width: 40vh;
+    height: 30vh;
+    margin-left: 2vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}header{
+    margin-bottom: 10px;
+}
+        .button-container {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-wrap: wrap;
+        
+        }
+
+        .button-container button {
+            font-size: 24px;
+            padding: 20px;
+            background-color:green;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 40vh;
+          height: 40vh;
+          margin: 10px;
+        }
+
+        .button-container button:hover {
+            background-color:green;
+            transform: scale(1.02);
+            color:  #ffc800;
+            
+        }
+        .hero{
+            background: url(../images/event.jpg);
+            height:70vh ;
+            width: 100%;
+            background-color: green;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+        header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+        }
+        
+        .events-container {
+            padding: 20px;
+        }
